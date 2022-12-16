@@ -1,0 +1,57 @@
+/* RESET */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* MAIN */
+.flex-box{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box{
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    width: 800px;
+    height: auto;
+}
+
+h1{
+    color: #00bfa6;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h3{
+    color: rgb(167, 167, 167);
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.password-box{
+    border: 1px solid #00bfa6;
+    width: 50%;
+    height: 40px;
+    margin: 0 auto;
+}
+
+.password-box p{
+    text-align: center;
+    line-height: 40px;
+    vertical-align: middle;
+    color: #3f3d56;
+}
+
+.box img{
+    width: 35%;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}

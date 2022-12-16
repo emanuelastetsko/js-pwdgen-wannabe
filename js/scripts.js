@@ -9,5 +9,10 @@ console.log("Il cognome dell'utente è: ", lname);
 
 // Chiedo il colore preferito all'utente
 
-const favcol = prompt("Qual è il tuo colore preferito");
+const favcol = prompt("Qual è il tuo colore preferito?");
 console.log("Il colore preferito dell'utente è: ", favcol);
+
+// Generazione password
+
+let somma = fname + lname + favcol + "21";
+document.getElementById('my-password').innerHTML = somma;
